@@ -1,0 +1,17 @@
+*.pyc
+.DS_Store
+build/*
+dist/*
+*.egg-info
+*.sublime-project
+*.sublime-workspace
+.idea/*
+
+venv
+*.log.*
+*.ini
+.idea
+app.db
+migrations/*
+logs
+config.py

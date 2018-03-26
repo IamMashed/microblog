@@ -1,0 +1,191 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-02-17 14:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: ru <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Source-Locale: de_DE\n"
+"Generated-By: Babel 2.5.3\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: app/__init__.py:25
+msgid "Please log in to access this page"
+msgstr ""
+
+#: app/email.py:24
+msgctxt "[Microblog] Сбросить пароль"
+msgid "[Microblog] Reset Your Password"
+msgstr ""
+
+#: app/forms.py:11 app/forms.py:18 app/forms.py:38
+msgid "Username"
+msgstr ""
+
+#: app/forms.py:12 app/forms.py:20 app/forms.py:67
+msgid "Password"
+msgstr ""
+
+#: app/forms.py:13
+msgid "Remember Me"
+msgstr ""
+
+#: app/forms.py:14 app/routes.py:67
+msgid "Sign In"
+msgstr ""
+
+#: app/forms.py:19 app/forms.py:62
+msgid "Email"
+msgstr ""
+
+#: app/forms.py:22 app/forms.py:69
+msgid "Repeat Password"
+msgstr ""
+
+#: app/forms.py:24 app/routes.py:82
+msgid "Register"
+msgstr ""
+
+#: app/forms.py:29 app/forms.py:51
+msgid "Please use a different username."
+msgstr ""
+
+#: app/forms.py:34
+msgid "Please use a different email address."
+msgstr ""
+
+#: app/forms.py:40
+msgctxt ""
+"Обо мне\n"
+msgid "About me"
+msgstr ""
+
+#: app/forms.py:41 app/forms.py:58
+msgid "Submit"
+msgstr ""
+
+#: app/forms.py:56
+msgid "Say something"
+msgstr ""
+
+#: app/forms.py:63 app/forms.py:71
+msgid "Request Password Reset"
+msgstr ""
+
+#: app/routes.py:33
+msgid "Your post is now live"
+msgstr ""
+
+#: app/routes.py:44
+msgid "Home Page"
+msgstr ""
+
+#: app/routes.py:59
+msgid "Invalid username or password"
+msgstr ""
+
+#: app/routes.py:80
+msgctxt "Поздравляем, вы теперь зарегистрированный пользователь!"
+msgid "Congratulations, you are now a registered user!"
+msgstr ""
+
+#: app/routes.py:114
+msgid "Your changes have been saved."
+msgstr ""
+
+#: app/routes.py:120 app/templates/edit_profile.html:5
+msgctxt "Редактировать профиль"
+msgid "Edit Profile"
+msgstr ""
+
+#: app/routes.py:134 app/routes.py:150
+#, python-format
+msgid "User %(username)s not found."
+msgstr ""
+
+#: app/routes.py:137
+msgid "You cannot follow yourself!"
+msgstr ""
+
+#: app/routes.py:141
+#, python-format
+msgid "You are following %(username)s!"
+msgstr ""
+
+#: app/routes.py:153
+msgid "You cannot unfollow yourself!"
+msgstr ""
+
+#: app/routes.py:157
+#, python-format
+msgid "You are not following %(username)s."
+msgstr ""
+
+#: app/routes.py:173 app/templates/base.html:22
+msgid "Explore"
+msgstr ""
+
+#: app/routes.py:189
+msgctxt ""
+"Проверьте свой адрес электронной почты, чтобы узнать, как сбросить пароль."
+msgid "Check your email for the instructions to reset your password"
+msgstr ""
+
+#: app/routes.py:192
+msgid "Reset Password"
+msgstr ""
+
+#: app/routes.py:206
+msgid "Your password has been reset."
+msgstr ""
+
+#: app/templates/404.html:4
+msgid "Not Found"
+msgstr ""
+
+#: app/templates/404.html:5 app/templates/500.html:6
+msgctxt "назад"
+msgid "Back"
+msgstr ""
+
+#: app/templates/500.html:4
+msgctxt "произошла неожиданная ошибка"
+msgid "An unexpected error has occurred"
+msgstr ""
+
+#: app/templates/500.html:5
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr ""
+
+#: app/templates/_post.html:13
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr ""
+
+#: app/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr ""
+
+#: app/templates/base.html:21
+msgid "Home"
+msgstr ""
+
+#: app/templates/base.html:26
+msgid "Login"
+msgstr ""
+
+#: app/templates/base.html:28
+msgid "Profile"
+msgstr ""
+
+#: app/templates/base.html:29
+msgid "Logout"
+msgstr ""
